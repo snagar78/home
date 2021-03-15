@@ -1,0 +1,13 @@
+<h3 class="timeline-title">{{title}}</h3>
+
+<h5 class="timerange label label-success">{{timeRange}}</h5>
+
+<div class="institute-container">
+  <em class="institute-name" *ngIf="institueName">{{institueName}}</em>
+  <span *ngIf="instituteIconClass" [ngClass]="instituteIconClass"></span>
+  <span class="location" *ngIf="location">({{location}})</span>
+</div>
+
+<div class="text">
+  <ng-content></ng-content>
+</div>

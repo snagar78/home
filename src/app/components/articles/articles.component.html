@@ -1,0 +1,22 @@
+<div *ngFor="let link of links">
+  <span class="spinner spinner-sm" *ngIf="link.loading"></span>
+  <a [attr.href]="link.url" target="_blank" class="card clickable">
+    <div class="card-block">
+      <div class="card-title">
+        {{link?.title}}
+      </div>
+    </div>
+    <div class="card-img">
+      <img [attr.src]="link?.previewObj?.image" width="400" />
+    </div>
+    <div class="card-block">
+      <p class="card-text">
+        {{link?.previewObj?.description}}
+      </p>
+      <p class="card-text link-url">
+        {{link.url}}
+      </p>
+    </div>
+  </a>
+
+</div>

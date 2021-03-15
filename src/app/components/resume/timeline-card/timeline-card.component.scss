@@ -1,0 +1,59 @@
+:host {
+  font-size: 16px;
+  line-height: 1.5rem;
+  display: block;
+
+  position: relative;
+  border-left: 2px solid #ccc;
+  padding: 0 0 24px 24px;
+
+  .timeline-title {
+    text-transform: uppercase;
+    color: #fafafa;
+  }
+  .timerange {
+    margin-top: 0;
+    border-radius: 0;
+  }
+  .institute-name {
+    display: block;
+    margin-top: 12px;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  .link {
+    display: block;
+  }
+
+  .institute-container {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    gap: 12px
+  }
+
+  .location {
+    font-size: 16px;
+  }
+
+
+}
+
+:host(.employer) {
+  .institute-name {
+    font-size: 20px;
+    color: #fafafa;
+  }
+}
+
+:host::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0px;
+  background: #ccc;
+  border: 2px solid #ccc;
+}

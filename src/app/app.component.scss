@@ -1,0 +1,67 @@
+@import "~normalize.css/normalize.css"; // css reset
+@import "~@cds/core/global.min"; // clarity global styles
+@import "~@cds/core/styles/module.shims.min"; // non-evergreen browser shims
+@import "~@cds/city/css/bundles/default.min"; // load base font
+
+.scrolling-contents {
+  height: 5000px;
+}
+
+.sidenav .nav-group .nav-list .nav-link {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  line-height: 2rem;
+  gap: 12px;
+}
+
+.sidenav .nav-group .nav-list .nav-link {
+  background: none;
+  &.active {
+    color: white;
+    font-weight: 600;
+  }
+  &:hover {
+    color: white;
+  }
+}
+
+.nav-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-link {
+  clr-icon,
+  cds-icon {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.my-photo {
+  border-radius: 50%;
+  width: 150px;
+  border: 8px solid;
+}
+
+.my-name {
+  margin-top: 12px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .social-icons {
+    margin-top: 1rem;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 3rem;
+  }
+}

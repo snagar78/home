@@ -1,0 +1,21 @@
+:host {
+  p {
+    font-size: 20px;
+    padding: 0 8rem 0 0;
+    line-height: 2rem;
+  }
+  strong {
+    color: white;
+  }
+}
+
+
+
+.personal-details {
+  line-height: 2rem;
+  padding: 5rem 8rem 0 0;
+  width: 100%;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

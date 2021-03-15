@@ -1,0 +1,23 @@
+:host {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 600px);
+  column-gap: 2rem;
+  // justify-content: center;
+  align-items: center;
+}
+
+.card-img {
+  padding-top: 12px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+
+.link-url {
+  color: #fafafa;
+}
+
+
+.card-title {
+  font-size: 1.2rem;
+}
