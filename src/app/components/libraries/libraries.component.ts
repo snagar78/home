@@ -16,7 +16,7 @@ export class LibrariesComponent implements OnInit {
       loading: false,
       title: 'An Angular library built on top of "mousetrap".',
       previewObj: {
-        image: '/assets/icons/npm-logo.png',
+        image: './assets/icons/npm-logo.png',
         description: 'A convenient Angular wrapper over mousetrap library to hide complexity and expose Angular Directive and Services'
       }
     },
@@ -25,7 +25,7 @@ export class LibrariesComponent implements OnInit {
       title: 'Using RxJS to communicate with webworker.',
       loading: false,
       previewObj: {
-        image: '/assets/icons/npm-logo.png',
+        image: './assets/icons/npm-logo.png',
         description: 'An RxJS library to communicate with WebWorkers using Observables and hide all the complexities of dealing with worker postMessaging.'
       }
 
