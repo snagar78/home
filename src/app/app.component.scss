@@ -21,6 +21,7 @@
   &.active {
     color: white;
     font-weight: 600;
+    transition: color 0.3s;
   }
   &:hover {
     color: white;
